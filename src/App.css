@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #242222;
+  color: #e9dcdc;
+}
+
+.header {
+  background-color: #222;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  color: #61dafb;
+}
+
+.inicio {
+  background-image: url('/assets/fondo-gym.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  min-height: 100vh;
+  color: white;
+}
+
+.lema {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ubicacion, .horarios {
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.menu-hamburguesa {
+  margin-top: 2rem;
+}
+
+.hamburguesa {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.servicios {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.servicios li {
+  background-color: #333;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.carrusel {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.imagenes-carrusel img {
+  width: 429px;
+  height: 550px;
+  margin: 0.0rem;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.redes, .medios-pago {
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.redes img,
+.medios-pago img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.registro {
+  background-image: url('/assets/formulario.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 2rem;
+  color: white;
+}
+.verificacion {
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.verificacion input {
+  padding: 0.8rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.verificacion button {
+  padding: 0.8rem 1.5rem;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formulario input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formulario button {
+  background-color: #61dafb;
+  color: rgb(17, 17, 17);
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #21a1f1;
+}
+.editar {
+  background: url('/assets/editar.jpg') no-repeat center center;
+  background-size: cover; /* Muestra la imagen completa */
+  background-color: #000;    /* Fondo por si la imagen no cubre todo */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra todo horizontalmente */
+}
+
+.tabla-planes {
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.tabla-planes th,
+.tabla-planes td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.tabla-planes th {
+  background-color: #61dafb;
+  color: black;
+}
+
+/* ✅ Aumentar tamaño imágenes */
+.redes img,
+.promociones img {
+  width: 309px; /* antes era 100px */
+  height: 400px;
+  margin: 0rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ✅ Centrar las promociones */
+.promociones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.redes img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.promociones img {
+  width: 309px;
+  height: 450px;
+  margin: 0rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
